@@ -5,3 +5,6 @@ Getting Started
 - cd my-landing
 - Ran "npm install react-router-dom tailwindcss postcss autoprefixer"
 - Ran "npx tailwindcss init"
+
+Deploying changes to Github Pages
+- Run "npm run deploy"
