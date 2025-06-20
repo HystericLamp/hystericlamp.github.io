@@ -20,7 +20,7 @@ const ProjectGrid: React.FC = () => {
 
             <div className="space-y-2 m-3">
               <a
-                href="https://github.com/yourusername/your-repo"
+                href="https://github.com/HystericLamp/CYOA-app"
                 className="inline-flex items-center hover:underline"
               >
                 <SiGithub className="w-4 h-4 mr-1" /> 
@@ -28,7 +28,7 @@ const ProjectGrid: React.FC = () => {
               </a> <br/>
 
               <a
-                href="https://your-live-site-url.com"
+                href="https://bcruzcyoa.netlify.app/"
                 className="inline-flex items-center hover:underline"
               >
                 <HiOutlineExternalLink className="w-4 h-4 mr-1" />
