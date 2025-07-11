@@ -38,8 +38,29 @@ const ProjectGrid: React.FC = () => {
           </div>
           {/* Example Project 2 */}
           <div className="project-card-light dark:project-card-dark">
-            <h3>Project 2</h3>
-            <p>WIP</p>
+            <h3>PyroSand Flutter App</h3>
+            <p>
+              An imitation app of the old PyroSand flash game.
+              Uses Flutter to demonstrate its smooth and interactive animations to enhance user engagement and visual appeal.
+            </p>
+
+            <div className="space-y-2 m-3">
+              <a
+                href="https://github.com/HystericLamp/PyroSandFlutter"
+                className="inline-flex items-center hover:underline"
+              >
+                <SiGithub className="w-4 h-4 mr-1" /> 
+                <span>GitHub</span>
+              </a> <br/>
+
+              <a
+                href="https://pyrosandflutter.web.app/"
+                className="inline-flex items-center hover:underline"
+              >
+                <HiOutlineExternalLink className="w-4 h-4 mr-1" />
+                <span>Live Site</span>
+              </a>
+            </div>
           </div>
           {/* Example Project 3 */}
           <div className="project-card-light dark:project-card-dark">
